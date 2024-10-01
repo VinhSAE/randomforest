@@ -1,0 +1,14 @@
+cài môi trường cho gdal
+Bước 1: Tải QGIS
+Bước 2: tìm file gdalinfo.exe tại .\QGIS 3.32.3\bin
+Bước 3: vào edit the sestem environment vari.. chọn advanced 
+-> environment variables -> path ->page .\QGIS 3.32.3\bin
+
+Bước 4: cài đặt trên cmd
+conda create -n p38_random_Forest python=3.8
+conda activate p38_random_Forest 
+conda install gdal
+conda install gdal matplotlib
+conda install scikit-learn    
+conda install scikit-learn pandas seaborn
+
